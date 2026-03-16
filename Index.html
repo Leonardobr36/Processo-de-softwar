@@ -4,15 +4,40 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>SGF Dashboard</title>
+
+<style>
+body{
+font-family: Arial, sans-serif;
+margin:20px;
+background:#f4f6f8;
+}
+h1{
+text-align:center;
+}
+iframe{
+background:white;
+border-radius:8px;
+box-shadow:0 2px 10px rgba(0,0,0,0.1);
+}
+</style>
+
 </head>
+
 <body>
+
 <h1>SGF — Dashboard de Fiscalização</h1>
-<iframe id="planilha" width="100%" height="650" style="border:0;"></iframe>
+
+<iframe id="planilha" width="100%" height="650"></iframe>
+
 <script>
+
 const base = "https://docs.google.com/spreadsheets/d/e/2PACX-1vQBryLtHOTwiJW42Kw-aAow804vPr82pMeRCnGSpgIbxwbdSFeb5aumH4hSyzUGNpEwypdCKx5TjH5P/pubhtml";
-const url = base + "&t=" + Date.now();
+
+const url = base + "?t=" + new Date().getTime();
+
 document.getElementById("planilha").src = url;
+
 </script>
+
 </body>
 </html>
-
