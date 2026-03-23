@@ -1,7 +1,10 @@
 # Backlog Inicial - SGF
 
-1 - Criar repositório do projeto
-2 - Criar página inicial do dashboard
-3 - Exibir dados da planilha de fiscalização
-4 - Criar tabela para visualizar os itens
-5 - Mostrar indicadores básicos no dashboard
+
+<ul>
+<li>  Criar repositório do projeto </li>
+<li> Criar página inicial do dashboard </li>
+<li> Exibir dados da planilha de fiscalização </li>
+<li> Criar tabela para visualizar os itens </li>
+<li> Mostrar indicadores básicos no dashboard </li>
+</ul>
